@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  
+header {
+    display: inline;
+}
+header .container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(10, 2, 87);
+    opacity: 0.7;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li a {
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+#iconAvatar {
+    float: right;
+    position: sticky;
+    height: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+nav {
+    background-color: rgb(10, 2, 87);
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav li:hover {
+    background-color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+.navigation li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://media.istockphoto.com/vectors/enterprise-it-management-concept-banner-header-vector-id1133382745?k=20&m=1133382745&s=170667a&w=0&h=5FjwlflYpLvU3SRdUksoLcdRLWsJ-qVCAoDMSSett9k=);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+  
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+  
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: normal;
+}
+  
+.lesson {
+    float: left;
+    width: 20%;
+}
+
+.project .lesson{
+    width: 50%;
+}
+
+.menu-icon{
+    color: rgb(10, 2, 87);
+    float: left;
+    display: none;
+    size-adjust: 200%;
+}
+  
+.lesson-icon{
+    position:relative;
+}
+  
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+  
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+  
+.heading h3 {
+    font-weight: normal;
+}
+  
+.message-wrapper {
+    padding-bottom: 80px;
+    text-align: center;
+}
+  
+.project{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.header{ 
+    height: 65px; 
+    width: 100%; 
+    display: flex; 
+    background-color: midnightblue; 
+    justify-content: space-between; 
+    color: #fff; 
+ 
+  } 
+.header-logo{ 
+    float: left; 
+    font-size: 36px; 
+    padding: 20px 40px; 
+} 
+ 
+.header-list li { 
+    float: center; 
+    padding: 33px 20px; 
+    list-style:none; 
+    justify-content: space-between; 
+}
+
+input, textarea{
+    width:400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 50px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    padding-top: 100px;
+    padding-left: 10px;
+    height: 700px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer-icon{
+    float: left;
+    background-color: white;
+    border-radius: 50px;
+}
+
+footer{
+    background-color:rgb(10, 2, 87);
+    color: white;
+    text-align: left;
+}
+
+
+
+.btn {
+    padding: 18px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+.message {
+    padding: 18px 40px;
+    background-color: #004297;
+    cursor: pointer;
+    box-shadow: 0 7px #0c0079;
+}
+  
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+@media screen and (max-width:670px) {
+    .top-wrapper{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+
+    header .container{
+        width:75%;
+    }
+
+    .lesson-icon{
+        position:relative;
+        width:100%;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    .lesson{
+        width:100%;
+        padding-bottom: 50px;
+    }
+
+    .project .lesson{
+        width: 100%;
+    }
+
+    .lesson-wrapper{
+        min-height:180em;
+        max-height: 181em;
+    }
+
+    .project{
+       min-height:750px;
+       max-height: 751px;
+    }
+
+    .contact-form{
+        min-height:750px;
+        max-height: 751px;
+    }
+
+    .menu-icon{
+        display: block;
+        color: white;
+    }
+
+    .navigation li a{
+        display:none;
+    }
+
+    input, textarea{
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 50px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+    }
+
+
+}
